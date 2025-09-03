@@ -1,12 +1,9 @@
-from Estudiantes import estudiantes
-import pandas as pd
+from Estudiantes import lis_est
 
 '''
 1. Calcular promedio de notas de cada estudiante y determinar quién tiene el promedio más alto y el más bajo.
 Calcular promedio general del curso.
 '''
-
-lis_est = pd.DataFrame(estudiantes)
 
 # Función para calcular promedio en una lista
 def calc_prom(x):
