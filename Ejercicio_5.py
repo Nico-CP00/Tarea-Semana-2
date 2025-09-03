@@ -16,3 +16,4 @@ lis_est["promedio"] = lis_est["notas"].apply(calc_prom)
 lis_ordenada = lis_est.sort_values(by = "promedio", ascending = False)
 
 print("Lista ordenada de estudiantes de mayor a menor según el promedio de los estudiantes\n", lis_ordenada)
+# Por hacer: Omitir ID en el print de alguna forma

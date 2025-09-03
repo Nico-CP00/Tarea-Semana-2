@@ -47,3 +47,4 @@ Obtener promedios de cada estudiante y promedio general del curso
 
 # lis_est = lis_est.explode("notas") para separar notas
 # lis_est["notas"] = lis_est["notas"].astype(float) para validar que las notas sean de tipo float
+# Por hacer: Validar los datos de la mayor cantidad de formas posible
