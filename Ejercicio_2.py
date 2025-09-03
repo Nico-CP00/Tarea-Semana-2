@@ -14,6 +14,7 @@ def aprobo_todo(notas):
     else:
         return False
 
+# Aplica la función para comprobar si el estudiante aprobo todo a toda la lista de estudiantes
 lis_est["Aprobados"] = lis_est["notas"].apply(aprobo_todo)
 total_aprob = lis_est["Aprobados"].sum()
 
