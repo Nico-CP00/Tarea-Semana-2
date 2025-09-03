@@ -1,2 +1,0 @@
-from estudiantes import estudiantes
-import pandas as pd
