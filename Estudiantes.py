@@ -27,7 +27,7 @@ estudiantes = [
     {"nombre": "Nicolás", "notas": [3.9, 2.1, 3.4]},
     {"nombre": "Sofía", "notas": [6.0, 2.9, 2.0]},
     {"nombre": "Claudia", "notas": [3.0, 2.2, 4.5]},
-    {"nombre": "Gabriel", "notas": [2.4, 2.8, 3.2]},
+    {"nombre": "Gabriel", "notas": [5.4, 5.8, 5.2]},
     {"nombre": "Josefa", "notas": [5.8, 3.0, 2.7]},
     {"nombre": "Mauricio", "notas": [2.6, 1.9, 2.8]},
     {"nombre": "Carolina", "notas": [4.4, 3.7, 3.8]}

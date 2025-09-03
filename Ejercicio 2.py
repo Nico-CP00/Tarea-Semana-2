@@ -17,6 +17,5 @@ def aprobo_todo(notas):
 lis_est["Aprobados"] = lis_est["notas"].apply(aprobo_todo)
 total_aprob = lis_est["Aprobados"].sum()
 
-print("Los estudiantes que aprobaron todas sus asignaturas fueron: ", lis_est[["nombre", "Aprobados"]])
+print("Lista de estudiantes que aprobaron todas sus asignaturas\n", lis_est[["nombre", "Aprobados"]])
 print("La cantidad de estudiantes aprobados fue de: ", total_aprob)
-
