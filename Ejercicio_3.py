@@ -11,6 +11,7 @@ todas_notas = []
 for lista in lis_est["notas"]:
     for n in lista:
         todas_notas.append(n)
+# Aquí mejor usar ".explode" en vez de usar doble ciclo for
 
 # Usamos la librería Pandas para obtener la moda o las modas
 moda = pd.Series(todas_notas).mode()

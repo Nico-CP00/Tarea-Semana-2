@@ -44,3 +44,6 @@ Obtener promedios de cada estudiante y promedio general del curso
 4. ¿Qué porcentaje de estudiantes tiene al menos una nota bajo 4.0?
 5. Entrega un listado ordenado (de mayor a menor) de los estudiantes según su promedio.
 '''
+
+# lis_est = lis_est.explode("notas") para separar notas
+# lis_est["notas"] = lis_est["notas"].astype(float) para validar que las notas sean de tipo float
