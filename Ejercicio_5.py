@@ -16,6 +16,6 @@ lis_est["promedio"] = lis_est["notas"].apply(calc_prom)
 lis_ordenada = lis_est.sort_values(by = "promedio", ascending = False)
 
 # Para que se reinicien las IDs y así no confundir a un lector externo con los IDs iniciales de los estudiantes
-lis_ordenada_sin_id = lis_ordenada.reset_index(drop=True)
+lis_ordenada_sin_id = lis_ordenada.reset_index(drop = True)
 
 print("Lista ordenada de estudiantes de mayor a menor según el promedio de los estudiantes\n", lis_ordenada_sin_id)
